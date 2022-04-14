@@ -1,0 +1,32 @@
+header {
+    height: 80px;
+    background: linear-gradient(100deg, white, blue );
+    margin: 0;
+}
+
+header h1 {
+    padding-top: 20px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    font-family: "Arial Black";
+}
+
+.gallery {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.left-image, .center-image, .right-image {
+    height: 250px;
+    padding: 5px 5px 25px;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    background-color: bisque;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    margin: auto;
+}
